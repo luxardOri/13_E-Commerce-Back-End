@@ -10,7 +10,7 @@ class Product extends Model {}
 Product.init(
   {
     product_id: {
-      type: Sequelize.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
